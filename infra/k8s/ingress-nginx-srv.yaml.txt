@@ -1,4 +1,6 @@
 # kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.15.1/deploy/static/provider/cloud/deploy.yaml 
+# nginx ingress config for local development in docker desktop from the url.. 
+# make this file as text file during cloud skaffold
 apiVersion: v1
 kind: Namespace
 metadata:
